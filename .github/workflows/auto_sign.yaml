@@ -5,7 +5,7 @@ name: Auto Sign
 on:
   # 定时触发：设置为每天UTC时间1点整（对应北京时间上午9点）
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 0 * * *'
   
   # 手动触发：允许你在 Actions 页面手动运行此工作流
   workflow_dispatch:
